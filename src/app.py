@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 
-from calculator import quadratic
+from src.calculator import quadratic
 
 app = Flask(__name__)
 
