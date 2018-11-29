@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 
-from src.calculator import quadratic
+from calculator import quadratic
 
 app = Flask(__name__)
 
@@ -38,5 +38,5 @@ def calculate():
     return render_template('calculator_form.html', error=None)
 
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
