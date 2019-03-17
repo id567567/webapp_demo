@@ -37,6 +37,3 @@ def calculate():
             return render_template('calculator_form.html', error=True)
     return render_template('calculator_form.html', error=None)
 
-
-# if __name__ == '__main__':
-#     app.run()
